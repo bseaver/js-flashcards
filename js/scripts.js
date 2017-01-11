@@ -5,7 +5,21 @@ $(function() {
     ["Operators", "Symbols used to assign or compare data"],
     ["Variables", "Symbols used to represent and store data."],
     ["Variable naming conventions", '"lowerCamelCase" and names that describe variable&#39s purpose'],
-    ["Functions", "Anonymous or named set of intstructions with parameter list"]
+    ["Functions", "Anonymous or named sets of code that: May take arguments, returns a specified result or undefined, may interact with the front end and / or may do back end processing."],
+    ["Methods", "Methods are like functions but are associated with a data type or object."],
+    ["Arguments", "Arguments are data or functions that are passed to a method or function.  They are sometimes optional."],
+    ["Parameters", "Parameters are the variables local to the function or method that receive arguments."],
+    ["Return", "Return is the command that terminates a function or method and optionally passes back data or a function."],
+    ["Chaining methods", "This is when a method is called and the return value has a method that is called etc.  The method calls are joined by a period."],
+    ["Strings", "A primitive JavaScript data type containing an expandable list of characters"],
+    ["Booleans", "A primitive JavaScript data type containing the value either true or false"],
+    ["Undefined", "A primitive JavaScript data tyype with the single value of undefined.  All  variables when first declared are undefined."],
+    ["NaN", "A numeric data type such as that resulting from 0 divided by 0."],
+    ["Escape", "Escaping special characters allows them to be displayed but not terminate a string or be treated as tags in HTML, regular expressions or other contacts.  Escaping is sometimes done with a leading back slash."],
+    ["Alert", "The alert() function in JavaScript displays a popup message with an OK button and returns undefined."],
+    ["Comments", "Comments allow programmers to add documentation to code, aiding in its overall usefullness and understandability."],
+    ["jQuery", "jQuery is a richly featured and commonly used JavaScript library, greatly enabling JavaScript programmers to build functionality."],
+    ["Attributes", "Attributes are key / value pairs that are included in HTML tags to specify files, URLs, text, context or other information."]
   ];
 
   // Generate HTML for Bootstrap rows of three columns of panels:
@@ -69,4 +83,4 @@ $(function() {
     $(this).addClass("hidden");
   });
 
-}); // End JavaScript 
+}); // End JavaScript
